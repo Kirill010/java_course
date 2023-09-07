@@ -18,7 +18,7 @@ public class array_1
             arr[i] = in.nextInt();
             a += arr[i];
         }
-
+        System.out.println(a);
         double ans = a / num;
 
         System.out.println(ans);
