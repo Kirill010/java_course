@@ -1,3 +1,5 @@
+package ru.mirea.lab1;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -42,7 +44,7 @@ public class while_2
             int i = in.nextInt();;
             arr.add(i);
             num1--;
-        } while (num1 != 0);
+        }while (num1 != 0);
 
         int min1 = Collections.min(arr);
         int max1 = Collections.max(arr);

@@ -1,3 +1,5 @@
+package ru.mirea.lab1;
+
 import java.util.Scanner;
 public class array_1
 {
