@@ -37,6 +37,6 @@ public class Author
     @Override
     public String toString()
     {
-        return "Name " + name + ", Email " + email + ", Name " + gender;
+        return "Name " + name + ", Email " + email + ", Gender " + gender;
     }
 }

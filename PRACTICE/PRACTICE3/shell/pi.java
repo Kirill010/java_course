@@ -2,6 +2,7 @@ package mirea.shell;
 
 public class pi
 {
+
     public static void main(String[] args)
     {
         //double total = 44;

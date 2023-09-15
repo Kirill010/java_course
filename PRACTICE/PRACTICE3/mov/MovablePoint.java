@@ -1,11 +1,11 @@
-package Mov;
+package mirea.mov;
 
 public class MovablePoint implements Movable
 {
-    private int x;
-    private int y;
-    private int xSpeed;
-    private int ySpeed;
+    protected int x;
+    protected int y;
+    protected int xSpeed;
+    protected int ySpeed;
     MovablePoint(int x, int y, int xSpeed, int ySpeed)
     {
         this.x = x;
@@ -13,31 +13,38 @@ public class MovablePoint implements Movable
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
+
+    @Override
     public String toString()
     {
         return "Координаты: (" + x + " " + y + "); Сдвиг " + xSpeed + " " + ySpeed;
     }
+
+    @Override
     public void moveUp()
     {
         this.y += this.ySpeed;
         System.out.println("Вверх " + this.ySpeed);
     }
 
+    @Override
     public void moveDown()
     {
         this.y -= this.ySpeed;
         System.out.println("Вниз " + this.ySpeed);
     }
 
+    @Override
     public void moveLeft()
     {
         this.x -= this.xSpeed;
         System.out.println("Налево " + this.xSpeed);
     }
 
+    @Override
     public void moveRight()
     {
         this.x += this.xSpeed;
-        System.out.println("Напрво " + this.xSpeed);
+        System.out.println("Направо " + this.xSpeed);
     }
 }

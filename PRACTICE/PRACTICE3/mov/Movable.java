@@ -1,6 +1,6 @@
-package Mov;
+package mirea.mov;
 
-interface Movable
+public interface Movable
 {
     void moveUp();
 

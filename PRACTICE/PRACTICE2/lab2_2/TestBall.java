@@ -1,5 +1,4 @@
 package mirea.lab2_2;
-import mirea.lab2_1.Author;
 
 import java.lang.*;
 
