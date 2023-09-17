@@ -4,8 +4,8 @@ public class merge_sort
 {
     public static void main(String[] args)
     {
-        int[] num1  = new int[] {1, 4, 10, 11};
-        int[] num2  = new int[] {2, 3, 3, 4, 8};
+        int[] num1  = new int[] {60, 66, 53, 70};
+        int[] num2  = new int[] {66, 67, 56, 54, 68};
         int[] num3 = new int[num1.length + num2.length];
         int i = 0, j = 0;
         for (int k = 0; k < num3.length; k++)
