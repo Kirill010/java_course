@@ -6,13 +6,11 @@ public class HumanTest {
         human.set_age(19);
         System.out.println(human);
 
-        Head head = new Head(false);
-        head.h(false);
-
-        Hand hand = new Hand(true);
-        hand.c(false);
-
-        Leg leg = new Leg(true);
-        leg.k(true);
+        Human.Head human_head = human.new Head();
+        human_head.h(true);
+        Human.Hand human_hand = human.new Hand();
+        human_hand.c(false);
+        Human.Leg human_leg = human.new Leg();
+        human_leg.k(false);
     }
 }
