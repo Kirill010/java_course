@@ -50,6 +50,7 @@ class Tableware extends Dish {
     }
 
     public void name() {
-        System.out.println("Посуда: " + super.getName() + ", Материал: " + super.getType() + ", Прибор: " + inst);
+        //System.out.println("Посуда: " + super.getName() + ", Материал: " + super.getType() + ", Прибор: " + inst);
+        System.out.println("Посуда: " + inst + ", Материал: " + super.getType());
     }
 }
