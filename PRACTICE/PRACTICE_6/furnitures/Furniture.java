@@ -1,7 +1,7 @@
 package furnitures;
 
 public abstract class Furniture {
-    private String name;
+    protected String name;
     private String material;
     public Furniture(String name, String material){
         this.name = name;
@@ -23,6 +23,8 @@ public abstract class Furniture {
         this.material = material;
     }
 
+    public abstract String cost();
+
     @Override
     public String toString() {
         return "Мебель: " + name + ", Материал: " + material;
@@ -38,8 +40,12 @@ class Type extends Furniture {
     }
 
     @Override
+    public String cost() {
+        return "Стоит на " + type;
+    }
+    @Override
     public String toString() {
         System.out.println(super.toString());
-        return "Стоит на " + type;
+        return name;
     }
 }
