@@ -1,10 +1,10 @@
-package P;
+package Price;
 
 public class Test {
     public static void main(String[] args) {
-        Priceable printable = new Guitar("Gibson Les Paul", 5000);
-        printable.print();
+        Priceable printable = new Guitar(5000);
+        System.out.println("Gibson Les Paul стоит: " + printable.getPrice());
         printable = new Home(100000);
-        printable.print();
+        System.out.println("Дом стоит: " + printable.getPrice());
     }
 }

@@ -1,10 +1,10 @@
-package N;
+package Name;
 
 public class Test {
     public static void main(String[] args) {
         Nameable printable = new Planet("Земля");
-        printable.print();
-        printable = new Cars("Lexus", "Black");
-        printable.print();
+        System.out.println("Планета: " + printable.getName());
+        printable = new Cars("Lexus");
+        System.out.println("Марка автомобиля: " + printable.getName());
     }
 }

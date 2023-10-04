@@ -1,4 +1,4 @@
-package P;
+package Price;
 
 public class Home implements Priceable {
     private int price;
@@ -11,7 +11,4 @@ public class Home implements Priceable {
         return price;
     }
 
-    public void print() {
-        System.out.println("Дом стоит = " + price + "$");
-    }
 }

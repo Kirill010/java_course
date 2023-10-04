@@ -1,6 +1,5 @@
-package P;
+package Price;
 
 public interface Priceable {
     int getPrice();
-    void print();
 }

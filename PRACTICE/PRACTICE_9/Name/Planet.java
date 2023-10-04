@@ -1,4 +1,4 @@
-package N;
+package Name;
 
 public class Planet implements Nameable{
     private String name;
@@ -8,9 +8,5 @@ public class Planet implements Nameable{
 
     public String getName() {
         return name;
-    }
-
-    public void print(){
-        System.out.println("Название планеты: " + name);
     }
 }

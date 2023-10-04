@@ -1,6 +1,5 @@
-package N;
+package Name;
 
 public interface Nameable {
     String getName();
-    void print();
 }
