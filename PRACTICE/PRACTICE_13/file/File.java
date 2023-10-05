@@ -9,11 +9,11 @@ import java.util.Scanner;
 
 public class File {
     public void t_1(String name) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите текст: ");
+        String text = sc.nextLine();
         try(FileWriter writer = new FileWriter(name, false))
         {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Введите текст: ");
-            String text = sc.nextLine();
             writer.append(text);
             writer.flush();
         }

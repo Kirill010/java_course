@@ -3,7 +3,7 @@ package file;
 public class TestFile {
     public static void main(String[] args) {
 
-        String name_txt = "C:\\Users\\super\\IdeaProjects\\MIREA\\practice_13\\src\\file\\pr13.txt";
+        String name_txt = "C:\\Users\\super\\IdeaProjects\\MIREA\\practice__13\\src\\file\\pr13.txt";
 
         File task = new File();
         System.out.println("1: Реализовать запись в файл введённой с клавиатуры информации");
@@ -16,9 +16,6 @@ public class TestFile {
         task.t_4(name_txt);
         System.out.println("Result");
         task.t_2(name_txt);
-
-
-
 
     }
 }

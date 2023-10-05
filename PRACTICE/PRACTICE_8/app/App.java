@@ -47,7 +47,6 @@ class App extends JFrame {
         this.animation_images_path = path;
     }
 
-    // Paint method
     @Override
     public void paint(Graphics g2) {
         Graphics2D g = (Graphics2D) g2;
@@ -68,7 +67,6 @@ class App extends JFrame {
         }
     }
 
-    // Random shapes paint methid
     void random_shapes_paint(int shapes, Graphics2D g) {
         for (int i = 0; i < shapes; i++) {
             int choice = (int) (Math.random() * 7);
@@ -160,11 +158,11 @@ class App extends JFrame {
         }
     }
 
-    // Start app
     public static void main(String[] args) {
         App app = new App();
         if (args.length == 1) {
             app.set_background_image_path(args[0]);
+            //System.out.println(app.background_image_path);
         }
         else if (args.length == 2) {
             app.set_background_image_path(args[0]);
