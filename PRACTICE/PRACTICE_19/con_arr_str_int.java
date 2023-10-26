@@ -19,6 +19,5 @@ public class con_arr_str_int {
         System.out.println("List1: " + list1);
         System.out.println("List2: " + list2);
 
-
     }
 }
